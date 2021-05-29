@@ -110,14 +110,14 @@ struct CardStackDemoView: View {
                     Text("SwiftUICardStack Example")
                         .font(.title)
                     // The magic
-//                    CardStack(
-//                        // Data
-//                        items: mock,
-//                        // Triggered when User gestures a detail inspection of a item.
-//                        selected: $selected,
-//                        // View representation for Data.
-//                        builder: CardView.init(model:)
-//                    )
+                    CardStack(
+                        // Data
+                        items: mock,
+                        // Triggered when User gestures a detail inspection of a item.
+                        selection: $selected,
+                        // View representation for Data.
+                        builder: CardView.init(model:)
+                    )
                     CardStack(items: mock, selection: $selected) { item in
                         Color.red
                     }
