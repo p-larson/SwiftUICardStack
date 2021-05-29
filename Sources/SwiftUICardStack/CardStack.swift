@@ -26,13 +26,13 @@ public struct CardStack<Item, ItemView>: View where Item: Identifiable, ItemView
     // MARK: State
     
     @State var isStacked = true
-    @Binding var selection: Item
+    @Binding var selection: Item?
     
     // MARK: Init
     
     public init(
         items: [Item],
-        selection: Binding<Item>,
+        selection: Binding<Item?>,
         builder: @escaping (Item) -> ItemView
     ) {
         self._selection = selection
