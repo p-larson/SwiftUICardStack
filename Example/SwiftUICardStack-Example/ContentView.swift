@@ -41,7 +41,7 @@ let mock = [
 struct CardView: View {
     let model: CardModel
     let id = UUID()
-
+    
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 25.0, style: .continuous)
@@ -52,7 +52,7 @@ struct CardView: View {
                         endPoint: .top
                     )
                 )
-
+            
             VStack {
                 HStack {
                     Text(model.name.uppercased())
@@ -102,11 +102,11 @@ func cardDetail(for item: CardModel) -> some View {
 
 struct CardStackDemoView: View {
     @State var selected: CardModel? = nil
-
+    
     func showDetail(for model: CardModel) {
         selected = model
     }
-
+    
     var body: some View {
         GeometryReader { geometry in
             ScrollView {
@@ -117,12 +117,12 @@ struct CardStackDemoView: View {
                     CardStack(
                         // Data
                         items: mock,
-                        // View representation for Data
+                        // View representation for Data.
                         builder: CardView.init(model:),
-                        // Detail View for Data
+                        // Triggered when User gestures a detail inspection of a item.
                         showDetail: showDetail(for:)
                     )
-
+                    
                     Text("plarson/SwiftUICardStack")
                         .font(.caption)
                     Spacer()

@@ -22,19 +22,18 @@ public struct CardStack<Item, ItemView>: View where Item: Identifiable, ItemView
     var expandedVerticalSpacing: CGFloat = 100.0
     var animationSpeedLag: Double = 0.1
     var minimumAnimationSpeed: Double = 0.1
-    
-    let showDetail: ((Item) -> ())?
-    
+        
     // MARK: State
     
     @State var isStacked = true
+    @Binding var selection: Item
     
     // MARK: Init
     
     public init(
         items: [Item],
         builder: @escaping (Item) -> ItemView,
-        showDetail: ((Item) -> ())? = nil
+        selection: Binding<Item>
     ) {
         self._source = ObservedObject(
             wrappedValue: CardStackSource<Item, ItemView>(
@@ -42,7 +41,7 @@ public struct CardStack<Item, ItemView>: View where Item: Identifiable, ItemView
                 builder: builder
             )
         )
-        self.showDetail = showDetail
+        self._selection = selection
     }
     
     public var body: some View {
@@ -85,7 +84,7 @@ public struct CardStack<Item, ItemView>: View where Item: Identifiable, ItemView
                 }
             }
             .onLongPressGesture {
-                showDetail?(item)
+                selection = item
             }
             .eraseToAnyView
         
