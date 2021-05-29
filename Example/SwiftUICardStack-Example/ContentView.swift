@@ -103,10 +103,6 @@ func cardDetail(for item: CardModel) -> some View {
 struct CardStackDemoView: View {
     @State var selected: CardModel? = nil
     
-    func showDetail(for model: CardModel) {
-        selected = model
-    }
-    
     var body: some View {
         GeometryReader { geometry in
             ScrollView {
@@ -120,7 +116,7 @@ struct CardStackDemoView: View {
                         // View representation for Data.
                         builder: CardView.init(model:),
                         // Triggered when User gestures a detail inspection of a item.
-                        showDetail: showDetail(for:)
+                        selected: $selected
                     )
                     
                     Text("plarson/SwiftUICardStack")

@@ -32,16 +32,16 @@ public struct CardStack<Item, ItemView>: View where Item: Identifiable, ItemView
     
     public init(
         items: [Item],
-        builder: @escaping (Item) -> ItemView,
-        selection: Binding<Item>
+        selection: Binding<Item>,
+        builder: @escaping (Item) -> ItemView
     ) {
+        self._selection = selection
         self._source = ObservedObject(
             wrappedValue: CardStackSource<Item, ItemView>(
                 items: items,
                 builder: builder
             )
         )
-        self._selection = selection
     }
     
     public var body: some View {
