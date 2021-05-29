@@ -79,4 +79,4 @@ CardStack(
 
 ```
 
-### See Full Example Usage @ [SwiftUICardStack/Example](https://github.com/p-larson/SwiftUICardStack/tree/main/Example/Example)
+### See Full Example Usage @ [SwiftUICardStack/Example](/Example/SwiftUICardStack-Example)
