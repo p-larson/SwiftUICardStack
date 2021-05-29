@@ -24,12 +24,18 @@ Add a dependency in your `Package.swift`
 ```swift
 import SwiftUICardStack
 
+// Data Model
 struct DataModel {
     let name, description, id: String
     
     func fetchMoreDetailedInformation() -> String {
         ...
     }
+}
+
+// Data Model View
+struct DataModelView: View {
+    ...
 }
 
 let dataModels: [DataModel] = ...
@@ -43,7 +49,7 @@ CardStack(
     // Triggered when User gestures a detail inspection of a item.
     selection: $selected,
     // View representation for Data.
-    builder: CardView.init(model:)
+    builder: DataModelView.init(model:)
 )
 // Example of using a sheet for a detail sheet.
 .sheet(item: $detailItem) { item in
@@ -57,3 +63,5 @@ CardStack(
 }
 
 ```
+
+### See Full Example Usage @ [SwiftUICardStack/Example](https://github.com/p-larson/SwiftUICardStack/tree/main/Example/Example)
