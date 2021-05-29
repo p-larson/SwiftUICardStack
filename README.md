@@ -21,6 +21,21 @@ Add a dependency in your `Package.swift`
 
 ## Basic Usage
 
+### Simple example
+
+```swift
+CardStack(items: data) { item in
+    ZStack {
+        Capsule()
+            .fill(Color.white)
+        Text(item.description)
+    }
+}
+```
+
+
+### More Advanced Example
+
 ```swift
 import SwiftUICardStack
 
