@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftUICardStack",
+        "repositoryURL": "https://github.com/p-larson/SwiftUICardStack",
+        "state": {
+          "branch": "main",
+          "revision": "85c78a060f33788da2932ed925affcb40d83d911",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

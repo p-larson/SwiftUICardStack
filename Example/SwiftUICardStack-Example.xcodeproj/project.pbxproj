@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,10 +11,11 @@
 		98D539D42661C87F00ED29DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D539D32661C87F00ED29DC /* ContentView.swift */; };
 		98D539D62661C88000ED29DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D539D52661C88000ED29DC /* Assets.xcassets */; };
 		98D539D92661C88000ED29DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D539D82661C88000ED29DC /* Preview Assets.xcassets */; };
+		98D539E22661C97A00ED29DC /* SwiftUICardStack in Frameworks */ = {isa = PBXBuildFile; productRef = 98D539E12661C97A00ED29DC /* SwiftUICardStack */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		98D539CE2661C87F00ED29DC /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D539CE2661C87F00ED29DC /* SwiftUICardStack-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUICardStack-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D539D12661C87F00ED29DC /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
 		98D539D32661C87F00ED29DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98D539D52661C88000ED29DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D539E22661C97A00ED29DC /* SwiftUICardStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +38,7 @@
 		98D539C52661C87F00ED29DC = {
 			isa = PBXGroup;
 			children = (
-				98D539D02661C87F00ED29DC /* Example */,
+				98D539D02661C87F00ED29DC /* SwiftUICardStack-Example */,
 				98D539CF2661C87F00ED29DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,12 +46,12 @@
 		98D539CF2661C87F00ED29DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				98D539CE2661C87F00ED29DC /* Example.app */,
+				98D539CE2661C87F00ED29DC /* SwiftUICardStack-Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		98D539D02661C87F00ED29DC /* Example */ = {
+		98D539D02661C87F00ED29DC /* SwiftUICardStack-Example */ = {
 			isa = PBXGroup;
 			children = (
 				98D539D12661C87F00ED29DC /* ExampleApp.swift */,
@@ -58,7 +60,7 @@
 				98D539DA2661C88000ED29DC /* Info.plist */,
 				98D539D72661C88000ED29DC /* Preview Content */,
 			);
-			path = Example;
+			path = "SwiftUICardStack-Example";
 			sourceTree = "<group>";
 		};
 		98D539D72661C88000ED29DC /* Preview Content */ = {
@@ -72,9 +74,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		98D539CD2661C87F00ED29DC /* Example */ = {
+		98D539CD2661C87F00ED29DC /* SwiftUICardStack-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98D539DD2661C88000ED29DC /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = 98D539DD2661C88000ED29DC /* Build configuration list for PBXNativeTarget "SwiftUICardStack-Example" */;
 			buildPhases = (
 				98D539CA2661C87F00ED29DC /* Sources */,
 				98D539CB2661C87F00ED29DC /* Frameworks */,
@@ -84,9 +86,12 @@
 			);
 			dependencies = (
 			);
-			name = Example;
+			name = "SwiftUICardStack-Example";
+			packageProductDependencies = (
+				98D539E12661C97A00ED29DC /* SwiftUICardStack */,
+			);
 			productName = Example;
-			productReference = 98D539CE2661C87F00ED29DC /* Example.app */;
+			productReference = 98D539CE2661C87F00ED29DC /* SwiftUICardStack-Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 98D539C92661C87F00ED29DC /* Build configuration list for PBXProject "Example" */;
+			buildConfigurationList = 98D539C92661C87F00ED29DC /* Build configuration list for PBXProject "SwiftUICardStack-Example" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,11 +117,14 @@
 				Base,
 			);
 			mainGroup = 98D539C52661C87F00ED29DC;
+			packageReferences = (
+				98D539E02661C97A00ED29DC /* XCRemoteSwiftPackageReference "SwiftUICardStack" */,
+			);
 			productRefGroup = 98D539CF2661C87F00ED29DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				98D539CD2661C87F00ED29DC /* Example */,
+				98D539CD2661C87F00ED29DC /* SwiftUICardStack-Example */,
 			);
 		};
 /* End PBXProject section */
@@ -268,10 +276,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Example/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICardStack-Example/Preview Content\"";
 				DEVELOPMENT_TEAM = 8B8QZZ6VNV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = "SwiftUICardStack-Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,10 +298,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Example/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICardStack-Example/Preview Content\"";
 				DEVELOPMENT_TEAM = 8B8QZZ6VNV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = "SwiftUICardStack-Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		98D539C92661C87F00ED29DC /* Build configuration list for PBXProject "Example" */ = {
+		98D539C92661C87F00ED29DC /* Build configuration list for PBXProject "SwiftUICardStack-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98D539DB2661C88000ED29DC /* Debug */,
@@ -318,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98D539DD2661C88000ED29DC /* Build configuration list for PBXNativeTarget "Example" */ = {
+		98D539DD2661C88000ED29DC /* Build configuration list for PBXNativeTarget "SwiftUICardStack-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98D539DE2661C88000ED29DC /* Debug */,
@@ -328,6 +336,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		98D539E02661C97A00ED29DC /* XCRemoteSwiftPackageReference "SwiftUICardStack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/p-larson/SwiftUICardStack";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		98D539E12661C97A00ED29DC /* SwiftUICardStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98D539E02661C97A00ED29DC /* XCRemoteSwiftPackageReference "SwiftUICardStack" */;
+			productName = SwiftUICardStack;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 98D539C62661C87F00ED29DC /* Project object */;
 }
