@@ -12,6 +12,9 @@
 		98D539D62661C88000ED29DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D539D52661C88000ED29DC /* Assets.xcassets */; };
 		98D539D92661C88000ED29DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D539D82661C88000ED29DC /* Preview Assets.xcassets */; };
 		98D539E22661C97A00ED29DC /* SwiftUICardStack in Frameworks */ = {isa = PBXBuildFile; productRef = 98D539E12661C97A00ED29DC /* SwiftUICardStack */; };
+		98D539E52661CDA100ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.27.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98D539E42661CDA100ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.27.gif */; };
+		98D539E72661CDB300ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.49.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98D539E62661CDB300ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.49.gif */; };
+		98D539E92661CDB900ED29DC /* Simulator Screen Shot - iPhone 12 - 2021-05-28 at 19.36.28.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D539E82661CDB900ED29DC /* Simulator Screen Shot - iPhone 12 - 2021-05-28 at 19.36.28.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		98D539D52661C88000ED29DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98D539D82661C88000ED29DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		98D539DA2661C88000ED29DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D539E42661CDA100ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.27.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.27.gif"; sourceTree = "<group>"; };
+		98D539E62661CDB300ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.49.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.49.gif"; sourceTree = "<group>"; };
+		98D539E82661CDB900ED29DC /* Simulator Screen Shot - iPhone 12 - 2021-05-28 at 19.36.28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 12 - 2021-05-28 at 19.36.28.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 				98D539D12661C87F00ED29DC /* ExampleApp.swift */,
 				98D539D32661C87F00ED29DC /* ContentView.swift */,
 				98D539D52661C88000ED29DC /* Assets.xcassets */,
+				98D539E32661CD9000ED29DC /* Demo Film */,
 				98D539DA2661C88000ED29DC /* Info.plist */,
 				98D539D72661C88000ED29DC /* Preview Content */,
 			);
@@ -69,6 +76,16 @@
 				98D539D82661C88000ED29DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98D539E32661CD9000ED29DC /* Demo Film */ = {
+			isa = PBXGroup;
+			children = (
+				98D539E42661CDA100ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.27.gif */,
+				98D539E62661CDB300ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.49.gif */,
+				98D539E82661CDB900ED29DC /* Simulator Screen Shot - iPhone 12 - 2021-05-28 at 19.36.28.png */,
+			);
+			path = "Demo Film";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +151,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D539E72661CDB300ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.49.gif in Resources */,
+				98D539E52661CDA100ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.27.gif in Resources */,
 				98D539D92661C88000ED29DC /* Preview Assets.xcassets in Resources */,
 				98D539D62661C88000ED29DC /* Assets.xcassets in Resources */,
+				98D539E92661CDB900ED29DC /* Simulator Screen Shot - iPhone 12 - 2021-05-28 at 19.36.28.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
