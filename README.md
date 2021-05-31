@@ -78,4 +78,4 @@ See [View#eraseToAnyView](/Sources/SwiftUICardStack/Common.swift)
 
 ### License
 
-Open Source [MIT License](https://github.com/p-larson/SwiftUICardStack/blob/main/LICENSE), aka: Use how you please 😎 
+Open Source [MIT License](https://github.com/p-larson/SwiftUICardStack/blob/main/LICENSE), aka: use how you please 😎 
