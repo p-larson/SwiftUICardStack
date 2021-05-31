@@ -118,9 +118,6 @@ struct CardStackDemoView: View {
                         // View representation for Data.
                         builder: CardView.init(model:)
                     )
-                    CardStack(items: mock, selection: $selected) { item in
-                        Color.red
-                    }
                     
                     Text("plarson/SwiftUICardStack")
                         .font(.caption)

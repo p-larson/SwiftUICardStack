@@ -5,6 +5,11 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftUICardStack",
+    platforms: [
+        .macOS(.v10_12),
+        .iOS(.v13),
+        .tvOS(.v14)
+    ],
     products: [
         .library(
             name: "SwiftUICardStack",

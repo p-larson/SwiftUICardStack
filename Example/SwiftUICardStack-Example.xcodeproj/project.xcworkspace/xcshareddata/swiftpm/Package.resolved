@@ -2,12 +2,21 @@
   "object": {
     "pins": [
       {
+        "package": "SnapshotTesting",
+        "repositoryURL": "https://github.com/pointfreeco/swift-snapshot-testing",
+        "state": {
+          "branch": null,
+          "revision": "f8a9c997c3c1dab4e216a8ec9014e23144cbab37",
+          "version": "1.9.0"
+        }
+      },
+      {
         "package": "SwiftUICardStack",
         "repositoryURL": "https://github.com/p-larson/SwiftUICardStack",
         "state": {
-          "branch": "main",
-          "revision": "0eee9fe7f9abb8288fe7ec823140b25e1c87610c",
-          "version": null
+          "branch": null,
+          "revision": "edbbc8fc619deeb902d62d37f5e4241cca8aee14",
+          "version": "1.0.0"
         }
       }
     ]

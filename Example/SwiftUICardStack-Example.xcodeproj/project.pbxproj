@@ -7,17 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9817D83626652E020043FBC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D539D32661C87F00ED29DC /* ContentView.swift */; };
+		9817D83726652E060043FBC5 /* GitHubBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989AFA222664620800D6D1B6 /* GitHubBannerView.swift */; };
+		9817D83926652E510043FBC5 /* SwiftUICardStack in Frameworks */ = {isa = PBXBuildFile; productRef = 9817D83826652E510043FBC5 /* SwiftUICardStack */; };
+		9817D83B26652EFE0043FBC5 /* GitHubBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 9817D83A26652EFE0043FBC5 /* GitHubBanner.png */; };
+		989AFA212664611000D6D1B6 /* SwiftUICardStack in Frameworks */ = {isa = PBXBuildFile; productRef = 989AFA202664611000D6D1B6 /* SwiftUICardStack */; };
+		989AFA232664620800D6D1B6 /* GitHubBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989AFA222664620800D6D1B6 /* GitHubBannerView.swift */; };
+		989AFA41266477B100D6D1B6 /* SwiftUICardStack_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989AFA40266477B100D6D1B6 /* SwiftUICardStack_ExampleUITests.swift */; };
+		989AFA4A2664780E00D6D1B6 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 989AFA492664780E00D6D1B6 /* SnapshotTesting */; };
 		98D539D22661C87F00ED29DC /* ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D539D12661C87F00ED29DC /* ExampleApp.swift */; };
 		98D539D42661C87F00ED29DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D539D32661C87F00ED29DC /* ContentView.swift */; };
 		98D539D62661C88000ED29DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D539D52661C88000ED29DC /* Assets.xcassets */; };
 		98D539D92661C88000ED29DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D539D82661C88000ED29DC /* Preview Assets.xcassets */; };
-		98D539E22661C97A00ED29DC /* SwiftUICardStack in Frameworks */ = {isa = PBXBuildFile; productRef = 98D539E12661C97A00ED29DC /* SwiftUICardStack */; };
 		98D539E52661CDA100ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.27.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98D539E42661CDA100ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.27.gif */; };
 		98D539E72661CDB300ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.49.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98D539E62661CDB300ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.49.gif */; };
 		98D539E92661CDB900ED29DC /* Simulator Screen Shot - iPhone 12 - 2021-05-28 at 19.36.28.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D539E82661CDB900ED29DC /* Simulator Screen Shot - iPhone 12 - 2021-05-28 at 19.36.28.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9817D83A26652EFE0043FBC5 /* GitHubBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GitHubBanner.png; sourceTree = "<group>"; };
+		989AFA222664620800D6D1B6 /* GitHubBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubBannerView.swift; sourceTree = "<group>"; };
+		989AFA2426646A8D00D6D1B6 /* SwiftUICardStack-Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUICardStack-Example.entitlements"; sourceTree = "<group>"; };
+		989AFA3E266477B100D6D1B6 /* SwiftUICardStack-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUICardStack-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		989AFA40266477B100D6D1B6 /* SwiftUICardStack_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICardStack_ExampleUITests.swift; sourceTree = "<group>"; };
+		989AFA42266477B100D6D1B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98D539CE2661C87F00ED29DC /* SwiftUICardStack-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUICardStack-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D539D12661C87F00ED29DC /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
 		98D539D32661C87F00ED29DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,22 +43,49 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		989AFA3B266477B100D6D1B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989AFA4A2664780E00D6D1B6 /* SnapshotTesting in Frameworks */,
+				9817D83926652E510043FBC5 /* SwiftUICardStack in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98D539CB2661C87F00ED29DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98D539E22661C97A00ED29DC /* SwiftUICardStack in Frameworks */,
+				989AFA212664611000D6D1B6 /* SwiftUICardStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9817D82E26652AA30043FBC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		989AFA3F266477B100D6D1B6 /* SwiftUICardStack-ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				989AFA40266477B100D6D1B6 /* SwiftUICardStack_ExampleUITests.swift */,
+				989AFA42266477B100D6D1B6 /* Info.plist */,
+			);
+			path = "SwiftUICardStack-ExampleUITests";
+			sourceTree = "<group>";
+		};
 		98D539C52661C87F00ED29DC = {
 			isa = PBXGroup;
 			children = (
 				98D539D02661C87F00ED29DC /* SwiftUICardStack-Example */,
+				989AFA3F266477B100D6D1B6 /* SwiftUICardStack-ExampleUITests */,
 				98D539CF2661C87F00ED29DC /* Products */,
+				9817D82E26652AA30043FBC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				98D539CE2661C87F00ED29DC /* SwiftUICardStack-Example.app */,
+				989AFA3E266477B100D6D1B6 /* SwiftUICardStack-ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,8 +101,10 @@
 		98D539D02661C87F00ED29DC /* SwiftUICardStack-Example */ = {
 			isa = PBXGroup;
 			children = (
+				989AFA2426646A8D00D6D1B6 /* SwiftUICardStack-Example.entitlements */,
 				98D539D12661C87F00ED29DC /* ExampleApp.swift */,
 				98D539D32661C87F00ED29DC /* ContentView.swift */,
+				989AFA222664620800D6D1B6 /* GitHubBannerView.swift */,
 				98D539D52661C88000ED29DC /* Assets.xcassets */,
 				98D539E32661CD9000ED29DC /* Demo Film */,
 				98D539DA2661C88000ED29DC /* Info.plist */,
@@ -81,6 +124,7 @@
 		98D539E32661CD9000ED29DC /* Demo Film */ = {
 			isa = PBXGroup;
 			children = (
+				9817D83A26652EFE0043FBC5 /* GitHubBanner.png */,
 				98D539E42661CDA100ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.27.gif */,
 				98D539E62661CDB300ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.49.gif */,
 				98D539E82661CDB900ED29DC /* Simulator Screen Shot - iPhone 12 - 2021-05-28 at 19.36.28.png */,
@@ -91,6 +135,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		989AFA3D266477B100D6D1B6 /* SwiftUICardStack-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 989AFA45266477B100D6D1B6 /* Build configuration list for PBXNativeTarget "SwiftUICardStack-ExampleUITests" */;
+			buildPhases = (
+				989AFA3A266477B100D6D1B6 /* Sources */,
+				989AFA3B266477B100D6D1B6 /* Frameworks */,
+				989AFA3C266477B100D6D1B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9817D83526652DC60043FBC5 /* PBXTargetDependency */,
+			);
+			name = "SwiftUICardStack-ExampleUITests";
+			packageProductDependencies = (
+				989AFA492664780E00D6D1B6 /* SnapshotTesting */,
+				9817D83826652E510043FBC5 /* SwiftUICardStack */,
+			);
+			productName = "SwiftUICardStack-ExampleUITests";
+			productReference = 989AFA3E266477B100D6D1B6 /* SwiftUICardStack-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		98D539CD2661C87F00ED29DC /* SwiftUICardStack-Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98D539DD2661C88000ED29DC /* Build configuration list for PBXNativeTarget "SwiftUICardStack-Example" */;
@@ -105,7 +171,7 @@
 			);
 			name = "SwiftUICardStack-Example";
 			packageProductDependencies = (
-				98D539E12661C97A00ED29DC /* SwiftUICardStack */,
+				989AFA202664611000D6D1B6 /* SwiftUICardStack */,
 			);
 			productName = Example;
 			productReference = 98D539CE2661C87F00ED29DC /* SwiftUICardStack-Example.app */;
@@ -120,6 +186,9 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					989AFA3D266477B100D6D1B6 = {
+						CreatedOnToolsVersion = 12.5;
+					};
 					98D539CD2661C87F00ED29DC = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -135,18 +204,27 @@
 			);
 			mainGroup = 98D539C52661C87F00ED29DC;
 			packageReferences = (
-				98D539E02661C97A00ED29DC /* XCRemoteSwiftPackageReference "SwiftUICardStack" */,
+				989AFA1F2664611000D6D1B6 /* XCRemoteSwiftPackageReference "SwiftUICardStack" */,
+				989AFA482664780E00D6D1B6 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 			);
 			productRefGroup = 98D539CF2661C87F00ED29DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				98D539CD2661C87F00ED29DC /* SwiftUICardStack-Example */,
+				989AFA3D266477B100D6D1B6 /* SwiftUICardStack-ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		989AFA3C266477B100D6D1B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98D539CC2661C87F00ED29DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -155,6 +233,7 @@
 				98D539E52661CDA100ED29DC /* Simulator Screen Recording - iPhone 12 - 2021-05-28 at 19.37.27.gif in Resources */,
 				98D539D92661C88000ED29DC /* Preview Assets.xcassets in Resources */,
 				98D539D62661C88000ED29DC /* Assets.xcassets in Resources */,
+				9817D83B26652EFE0043FBC5 /* GitHubBanner.png in Resources */,
 				98D539E92661CDB900ED29DC /* Simulator Screen Shot - iPhone 12 - 2021-05-28 at 19.36.28.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,18 +241,76 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		989AFA3A266477B100D6D1B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9817D83626652E020043FBC5 /* ContentView.swift in Sources */,
+				989AFA41266477B100D6D1B6 /* SwiftUICardStack_ExampleUITests.swift in Sources */,
+				9817D83726652E060043FBC5 /* GitHubBannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98D539CA2661C87F00ED29DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				98D539D42661C87F00ED29DC /* ContentView.swift in Sources */,
+				989AFA232664620800D6D1B6 /* GitHubBannerView.swift in Sources */,
 				98D539D22661C87F00ED29DC /* ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9817D83526652DC60043FBC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 9817D83426652DC60043FBC5 /* SnapshotTesting */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		989AFA46266477B100D6D1B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B8QZZ6VNV;
+				INFOPLIST_FILE = "SwiftUICardStack-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "software.larson.cardstack.SwiftUICardStack-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		989AFA47266477B100D6D1B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B8QZZ6VNV;
+				INFOPLIST_FILE = "SwiftUICardStack-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "software.larson.cardstack.SwiftUICardStack-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		98D539DB2661C88000ED29DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -226,6 +363,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -281,6 +419,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -295,20 +434,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUICardStack-Example/SwiftUICardStack-Example.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICardStack-Example/Preview Content\"";
 				DEVELOPMENT_TEAM = 8B8QZZ6VNV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUICardStack-Example/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = software.larson.cardstack.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -317,26 +459,38 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUICardStack-Example/SwiftUICardStack-Example.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICardStack-Example/Preview Content\"";
 				DEVELOPMENT_TEAM = 8B8QZZ6VNV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUICardStack-Example/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = software.larson.cardstack.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		989AFA45266477B100D6D1B6 /* Build configuration list for PBXNativeTarget "SwiftUICardStack-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989AFA46266477B100D6D1B6 /* Debug */,
+				989AFA47266477B100D6D1B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		98D539C92661C87F00ED29DC /* Build configuration list for PBXProject "SwiftUICardStack-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -358,21 +512,44 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		98D539E02661C97A00ED29DC /* XCRemoteSwiftPackageReference "SwiftUICardStack" */ = {
+		989AFA1F2664611000D6D1B6 /* XCRemoteSwiftPackageReference "SwiftUICardStack" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/p-larson/SwiftUICardStack";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		989AFA482664780E00D6D1B6 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		98D539E12661C97A00ED29DC /* SwiftUICardStack */ = {
+		9817D83426652DC60043FBC5 /* SnapshotTesting */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 98D539E02661C97A00ED29DC /* XCRemoteSwiftPackageReference "SwiftUICardStack" */;
+			package = 989AFA482664780E00D6D1B6 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+		9817D83826652E510043FBC5 /* SwiftUICardStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 989AFA1F2664611000D6D1B6 /* XCRemoteSwiftPackageReference "SwiftUICardStack" */;
 			productName = SwiftUICardStack;
+		};
+		989AFA202664611000D6D1B6 /* SwiftUICardStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 989AFA1F2664611000D6D1B6 /* XCRemoteSwiftPackageReference "SwiftUICardStack" */;
+			productName = SwiftUICardStack;
+		};
+		989AFA492664780E00D6D1B6 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 989AFA482664780E00D6D1B6 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

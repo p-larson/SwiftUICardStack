@@ -10,8 +10,15 @@ import SwiftUI
 @main
 struct ExampleApp: App {
     var body: some Scene {
+        #if DEBUG
+        WindowGroup {
+            GitHubBanner_Previews.previews
+        }
+        #else
         WindowGroup {
             CardStackDemoView()
         }
+        #endif
+        
     }
 }
