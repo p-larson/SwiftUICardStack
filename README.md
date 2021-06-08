@@ -43,68 +43,22 @@ Add a dependency in your `Package.swift`
 ### Simple example
 
 ```swift
-CardStack(items: data) { item in
-    ZStack {
-        Capsule()
-            .fill(Color.white)
-        Text(item.description)
+CardStack(
+    items: cards,
+    selection: $selectedCard,
+    builder: CardView.init(model:)
+)
+.sheet(item: $selectedCard) { card in
+    VStack {
+        Text(card.name)
+        Text(card.description)
+        Text(card.id)
+        Text(card.someMoreDetailedInformation())
     }
 }
 ```
-
-
-
-### A More Advanced Example 
 
 See Full Example Usage @ [SwiftUICardStack/Example](/Example/SwiftUICardStack-Example) 
-
-<details>
-<summary> Show psuedo code </summary>
-
-```swift
-import SwiftUICardStack
-
-// Data Model
-struct DataModel {
-    let name, description, id: String
-    
-    func fetchMoreDetailedInformation() -> String {
-        ...
-    }
-}
-
-// Data Model View
-struct DataModelView: View {
-    ...
-}
-
-let dataModels: [DataModel] = ...
-
-@State var detailItem: DataModel? = nil
-...
-// A quick vinyl style stack for quickly picking items.
-CardStack(
-    // Data
-    items: mock,
-    // Triggered when User gestures a detail inspection of a item.
-    selection: $selected,
-    // View representation for Data.
-    builder: DataModelView.init(model:)
-)
-// Example of using a sheet for a detail sheet.
-.sheet(item: $detailItem) { item in
-    // A detailed description of the selected item
-    VStack {
-        Text(model.name)
-        Text(model.description)
-        Text(model.id)
-        Text(model.someMoreDetailedInformation())
-    }
-}
-
-```
-
-</details>
 
 ## Extra
 
@@ -124,4 +78,4 @@ See [View#eraseToAnyView](/Sources/SwiftUICardStack/Common.swift)
 
 ### License
 
-Open Source 😎
+Open Source [MIT License](https://github.com/p-larson/SwiftUICardStack/blob/main/LICENSE), aka: use how you please 😎 
