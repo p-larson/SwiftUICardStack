@@ -16,12 +16,12 @@ public struct CardStack<Item, ItemView>: View where Item: Identifiable, ItemView
     
     // MARK: Constants
     
-    var maxItemsDisplayed: Int = 4
-    var scaleDecrement: CGFloat = 0.05
-    var verticalSpacing: CGFloat = 20.0
-    var expandedVerticalSpacing: CGFloat = 100.0
-    var animationSpeedLag: Double = 0.1
-    var minimumAnimationSpeed: Double = 0.1
+    let maxItemsDisplayed: Int = 4
+    let scaleDecrement: CGFloat = 0.05
+    let verticalSpacing: CGFloat = 20.0
+    let expandedVerticalSpacing: CGFloat = 100.0
+    let animationSpeedLag: Double = 0.1
+    let minimumAnimationSpeed: Double = 0.1
         
     // MARK: State
     
@@ -87,6 +87,5 @@ public struct CardStack<Item, ItemView>: View where Item: Identifiable, ItemView
                 selection = item
             }
             .eraseToAnyView
-        
     }
 }
